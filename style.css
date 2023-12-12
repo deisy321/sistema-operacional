@@ -52,4 +52,15 @@ body {
 #next-btn:hover {
     background-color: #45a049;
 }
+/* Adicione o estilo para os botões corretos */
+.answer-btn.correct {
+    background-color: #4CAF50; /* Verde */
+    color: #ffffff; /* Texto branco */
+}
+
+/* Adicione o estilo para os botões incorretos */
+.answer-btn.incorrect {
+    background-color: #FF0000; /* Vermelho */
+    color: #ffffff; /* Texto branco */
+}
 
