@@ -52,15 +52,24 @@ body {
 #next-btn:hover {
     background-color: #45a049;
 }
-/* Adicione o estilo para os botões corretos */
+
 .answer-btn.correct {
-    background-color: #4CAF50; /* Verde */
-    color: #ffffff; /* Texto branco */
+    background-color: #4CAF50; 
+    color: #ffffff; 
 }
 
-/* Adicione o estilo para os botões incorretos */
+
 .answer-btn.incorrect {
-    background-color: #FF0000; /* Vermelho */
-    color: #ffffff; /* Texto branco */
+    background-color: #FF0000; 
+    color: #ffffff; 
+}
+.link-voltar {
+    color: #007bb5; 
+    text-decoration: none; 
+    display: block; 
+    margin-top: 20px;
 }
 
+.link-voltar:hover {
+    text-decoration: underline; 
+}

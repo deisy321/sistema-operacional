@@ -137,3 +137,4 @@ function startQuiz() {
 
 // Inicializa o quiz ao carregar a página
 window.onload = startQuiz;
+
