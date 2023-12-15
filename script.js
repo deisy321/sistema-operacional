@@ -74,6 +74,7 @@ const questions = [
         ]
     },
 ];
+
 let currentQuestionIndex = 0;
 
 function showQuestion() {
@@ -135,6 +136,5 @@ function startQuiz() {
     showQuestion();
 }
 
-// Inicializa o quiz ao carregar a página
-window.onload = startQuiz;
 
+window.onload = startQuiz;
