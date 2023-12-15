@@ -7,24 +7,15 @@
     <title>Quiz de Conhecimento sobre S.O</title>
 </head>
 <body>
-    <div id="start-container" class="homepage"></div>
-    <h1>Bem-vindo ao Quiz sobre Sistemas Operacionais!</h1>
-    <img src="https://i.gifer.com/UR3g.gif" alt="Imagem de Sistemas Operacionais" class="imagemCircular">
-    <p>Teste o seu conhecimento sobre sistemas operacionais respondendo a algumas perguntas sobre os mesmos.</p>
-    <h5>Créditos e Informações Pessoais</h5>
-    <p>Este quiz foi criado por: Abdaisy Cravid da Conceição 1º PI.</p>
-    <div id="credits-container">
-        <p>Referências:</p>
-        <ul>
-            <a href="https://catalogo.anqep.gov.pt/ufcdDetalhe/779" target="_blank">Catalogo nacional de qualificaçães</a>
-            <br> <a href="https://chat.openai.com/share/fd5ac1d0-653e-4d53-9db1-f9d54e60cccd" target="_blank">ChatGpt</a>
-        </ul>
+    <div id="start-container" class="homepage">
+        <h1>Bem-vindo ao Quiz sobre Sistemas Operacionais!</h1>
+        <img src="https://i.gifer.com/UR3g.gif" alt="Imagem de Sistemas Operacionais" class="imagemCircular">
+        <p>Teste o seu conhecimento sobre sistemas operacionais respondendo a algumas perguntas sobre os mesmos.</p>
+        <p>Antes de começar, se não souber nada sobre S.O: <a href="https://chat.openai.com/share/3b01068d-fcba-4f59-b7f5-43336303f4a6">clique aqui!</a></p>
     </div>
-    Antes de começar se não souber nada sobre S.O :
-    <a href="https://chat.openai.com/share/3b01068d-fcba-4f59-b7f5-43336303f4a6">clique aqui!</a></p>
-    </div>
-    <div id="quiz-container">
-        <h2>Quiz Sobre Sistemas Operacionais </h2>
+
+    <div id="quiz-container" class="hide">
+        <h2>Quiz Sobre Sistemas Operacionais</h2>
         <div id="question-container">
             <p id="question-text">Pergunta aqui</p>
             <button class="answer-btn">Opção 1</button>
@@ -33,8 +24,20 @@
             <button class="answer-btn">Opção 4</button>
         </div>
         <button id="next-btn" class="hide" onclick="checkAnswer()">Próxima Pergunta</button>
-        </div>
+        <button id="restart-btn" class="hide" onclick="restartQuiz()">Reiniciar Quiz</button>
+</div>
+    <h5>Créditos e Informações Pessoais</h5>
+    <p>Este quiz foi criado por: Abdaisy Cravid da Conceição 1º PI.</p>
+
+    <div id="credits-container">
+        <p>Referências:</p>
+        <ul>
+            <a href="https://catalogo.anqep.gov.pt/ufcdDetalhe/779" target="_blank">Catalogo nacional de qualificaçães</a>
+            <br>
+            <a href="https://chat.openai.com/share/fd5ac1d0-653e-4d53-9db1-f9d54e60cccd" target="_blank">ChatGpt</a>
+        </ul>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

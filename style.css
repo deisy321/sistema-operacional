@@ -58,11 +58,11 @@ body {
     color: #ffffff; 
 }
 
-
 .answer-btn.incorrect {
     background-color: #FF0000; 
     color: #ffffff; 
 }
+
 .link-voltar {
     color: #007bb5; 
     text-decoration: none; 
@@ -73,18 +73,16 @@ body {
 .link-voltar:hover {
     text-decoration: underline; 
 }
+
 .homepage {
     background-color:#f9a1bc; 
     padding: 50px;
-}
-
-#start-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h1 {
+h1, h2 {
     padding: 10px;
     border-radius: 8px;
     animation: mudarCor 5s infinite alternate;
@@ -115,42 +113,10 @@ h1 {
         color: #f9a1bc;
         background-color: #333333;
     }
-    }
-
-h2 {
-    padding: 10px;
-    border-radius: 8px;
-    animation: mudarCor 5s infinite alternate;
 }
 
-@keyframes mudarCor {
-    0% {
-        color: #333333;
-        background-color: #f9a1bc;
-    }
-    100% {
-        color: #f9a1bc;
-        background-color: #333333;
-    }
-    25% {
-        color: #4CAF50;
-        background-color: #9C27B0;
-    }
-    50% {
-        color: #2196F3; 
-        background-color: #FFC107; 
-    }
-    75% {
-        color: #E91E63; 
-        background-color: #00BCD4; 
-    }
-    100% {
-        color: #f9a1bc;
-        background-color: #333333;
-    }
-    }
 p {
-    color: #666666; /
+    color: #666666;
     margin-top: 20px;
 }
 
@@ -167,6 +133,7 @@ p {
 #start-button:hover {
     background-color: #45a049;
 }
+
 .imagemCircular {
     border-radius: 50%;
     width: 200px; 
