@@ -73,3 +73,54 @@ body {
 .link-voltar:hover {
     text-decoration: underline; 
 }
+.homepage {
+    background-color:#f9a1bc; 
+    padding: 50px;
+}
+
+#start-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333333; 
+    background-color: #f9a1bc; 
+    padding: 10px;
+    border-radius: 8px;
+}
+h2 {
+    color:   #f9a1bc;
+    background-color: #333333; 
+    padding: 10px;
+    border-radius: 8px;
+}
+p {
+    color: #666666; /
+    margin-top: 20px;
+}
+
+#start-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#start-button:hover {
+    background-color: #45a049;
+}
+.imagemCircular {
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+
+
+
