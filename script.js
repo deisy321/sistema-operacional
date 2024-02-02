@@ -136,8 +136,11 @@ function checkAnswer(selectedAnswer, clickedButton) {
 function showResult() {
     const quizContainer = document.getElementById('quiz-container');
     quizContainer.innerHTML = `<h2>Pontuação Final: ${score} de ${questions.length}</h2>
-                              <button id="restart-btn" onclick="restartQuiz()">Reiniciar Quiz</button>`;
+                              <button id="restart-btn">Reiniciar Quiz</button>`;
+    
+    document.getElementById('restart-btn').addEventListener('click', restartQuiz);
 }
+
 
 function restartQuiz() {
     currentQuestionIndex = 0;
@@ -147,5 +150,4 @@ function restartQuiz() {
 
 document.addEventListener('DOMContentLoaded', function () {
     startQuiz();
-    document.getElementById('restart-btn').addEventListener('click', restartQuiz);
 });
